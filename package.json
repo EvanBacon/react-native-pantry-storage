@@ -1,0 +1,40 @@
+{
+  "name": "react-native-pantry-storage",
+  "version": "1.0.0",
+  "sideEffects": false,
+  "private": false,
+  "description": "Persist values in `AsyncStorage` with expiration dates.",
+  "author": "Evan Bacon <bacon@expo.io> (https://expo.io/)",
+  "homepage": "https://github.com/evanbacon/react-native-pantry-storage",
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "main": "src/index.js",
+  "keywords": [
+    "expo",
+    "react-native-web",
+    "react-native",
+    "asyncstorage",
+    "storage",
+    "utils",
+    "react",
+    "ssr"
+  ],
+  "scripts": {
+    "jest": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanbacon/react-native-pantry-storage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evanbacon/react-native-pantry-storage/issues"
+  },
+  "directories": {
+    "lib": "src"
+  },
+  "peerDependencies": {
+    "react-native": "*",
+    "prop-types": "*",
+    "fbjs": "*"
+  }
+}
