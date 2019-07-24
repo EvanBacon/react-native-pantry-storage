@@ -49,6 +49,8 @@ async function getFavoriteSongAsync() {
   // Check the cache. This is basically like invoking AsyncStorage but if the data expired then it gets thrown out and `null` is returned.
   const favoriteSong = await getItemWithExpirationAsync(KEY);
   if (favoriteSong != null) {
+    const expiration = await getExpirationDateAsync(KEY);
+    console.log('Seconds remaining before stale: ', new Date(expiration - new Date()).getSeconds());
     return favoriteSong;
   }
 
