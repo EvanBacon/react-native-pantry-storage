@@ -1,6 +1,6 @@
 {
   "name": "react-native-pantry-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "sideEffects": false,
   "private": false,
   "description": "Persist values in `AsyncStorage` with expiration dates.",

@@ -51,7 +51,7 @@ export function createDate({ milliseconds, seconds, minutes, hours, time }) {
   if (typeof milliseconds !== 'undefined') {
     expireTime.setMilliseconds(now.getMilliseconds() + milliseconds);
   }
-  if (typeof seconods !== 'undefined') {
+  if (typeof seconds !== 'undefined') {
     expireTime.setSeconds(now.getSeconds() + seconds);
   }
   if (typeof minutes !== 'undefined') {
